@@ -1,0 +1,26 @@
+@media only screen and (min-width: 320px) {
+    body {
+        background: orange;
+        /* width: auto;
+    div {float:left;
+    }
+    footer {clear: both; */
+}
+
+@media only screen and (min-width: 768px) {
+    body {background: dodgerblue;
+        /* width: auto;
+    div {float: right;
+    }
+    footer {clear: both;
+    } */
+}
+@media only screen and (min-width: 960px) {
+    body {
+        background: orangered;
+        /* width: 1440;
+    div {float: right;
+    }
+    footer {clear: both;
+    } */
+}

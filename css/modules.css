@@ -1,0 +1,67 @@
+.a {
+    width: 100%;
+    height: 75px;
+    border: 2px solid black;
+    vertical-align: middle;
+}
+
+.b {
+    width: 100%;
+    height: 150px;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+.c {
+    width: 100%;
+    height: 125px;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+.d {
+    width: 100%;
+    height: 125px;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+/* .EandF {
+    width: 480px;
+    height: 125px;
+} */
+
+/* .GandH{
+    width: 480px;
+    height: 125px;
+} */
+
+.e, .f{
+    border: 2px solid black;
+    float: left;
+    width: 45%;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.g, .h{
+    border: 2px solid black;
+    float:left;
+    width: 45%;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+}
+.i {
+    width: 100%;
+    height: 125px;
+    border: 2px solid black;
+    clear: both;
+    text-align: center;
+    margin: auto;
+}
