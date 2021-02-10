@@ -1,14 +1,9 @@
-body html {
-    width: 960px;
-    text-align: center;
-    background-color: palegoldenrod;
+* {
+    box-sizing: border-box;
 }
 
-.container {
+section {
     display: flex;
-    flex-direction: column;
-}
-
-div {
-    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }

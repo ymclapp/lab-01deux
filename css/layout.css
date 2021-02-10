@@ -1,26 +1,65 @@
-@media only screen and (min-width: 320px) {
-    body {
-        background: orange;
-        /* width: auto;
-    div {float:left;
-    }
-    footer {clear: both; */
+section:nth-child(1) {
+    height: 100px;
 }
 
-@media only screen and (min-width: 768px) {
-    body {background: dodgerblue;
-        /* width: auto;
-    div {float: right;
-    }
-    footer {clear: both;
-    } */
+section:nth-child(2) {
+    width: 200px;
+    height: 600px;
 }
-@media only screen and (min-width: 960px) {
-    body {
-        background: orangered;
-        /* width: 1440;
-    div {float: right;
-    }
-    footer {clear: both;
-    } */
+
+section:nth-child(3), section:nth-child(4) {
+    width: 380px;
+    height: 200px;
+    float: left;
 }
+
+section:nth-child(5), section:nth-child(6), section:nth-child(7), section:nth-child(8) {
+    width: 190px;
+    height: 250px;
+    float: left;
+}
+
+section:nth-child(9) {
+    width: 760px;
+    height: 150px;
+}
+
+/* media controls */
+
+ @media (min-width: 480px)
+  and (max-width: 767px) { 
+    body { 
+        background-color: dodgerblue;
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    section:nth-child(1) {
+        height: 75px;
+    }
+    
+    section:nth-child(2) {
+        width: 480px;
+        height: 150px;
+    }
+    
+    section:nth-child(3), section:nth-child(4) {
+        width: 480px;
+        height: 1250px;
+        float: left;
+    }
+    
+    section:nth-child(5), section:nth-child(6), section:nth-child(7), section:nth-child(8) {
+        width: 240px;
+        height: 250px;
+        float: left;
+    }
+    
+    section:nth-child(9) {
+        width: 480px;
+        height: 80px;
+    }
+} 
+
+
+/*this closes the 768 size min width for media
