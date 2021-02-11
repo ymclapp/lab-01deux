@@ -1,65 +1,165 @@
-section:nth-child(1) {
-    height: 100px;
-}
-
-section:nth-child(2) {
-    width: 200px;
-    height: 600px;
-}
-
-section:nth-child(3), section:nth-child(4) {
-    width: 380px;
-    height: 200px;
-    float: left;
-}
-
-section:nth-child(5), section:nth-child(6), section:nth-child(7), section:nth-child(8) {
-    width: 190px;
-    height: 250px;
-    float: left;
-}
-
-section:nth-child(9) {
-    width: 760px;
-    height: 150px;
-}
-
-/* media controls */
-
- @media (min-width: 480px)
-  and (max-width: 767px) { 
+@media (max-width: 479px) { 
     body { 
-        background-color: dodgerblue;
-        width: 960px;
+        background-color: orangered;
+        width: 479px;
         margin: 0 auto;
+        border: 2px solid black;
     }
 
     section:nth-child(1) {
         height: 75px;
+        border: 2px solid black;
     }
     
     section:nth-child(2) {
-        width: 480px;
         height: 150px;
+        border: 2px solid black;
     }
     
     section:nth-child(3), section:nth-child(4) {
-        width: 480px;
-        height: 1250px;
-        float: left;
+        height: 125px;
+        border: 2px solid black;
+    }
+    
+    section:nth-child(5), section:nth-child(6), section:nth-child(7), section:nth-child(8) {
+        /* width: 240px; */
+        height: 250px;
+        /* float: left; */
+        border: 2px solid black;
+    }
+    
+    section:nth-child(9) {
+        width: 479px;
+        height: 80px;
+        border: 2px solid black;
+    }
+} 
+
+/*this closes the 479 size max width for media*/
+
+@media (min-width: 480px)
+  and (max-width: 767px) { 
+    body { 
+        background-color: dodgerblue;
+        width: 767px;
+        margin: 0 auto;
+        border: 2px solid black;
+    }
+
+    section:nth-child(1) {
+        height: 75px;
+        border: 2px solid black;
+    }
+    
+    section:nth-child(2) {
+        height: 150px;
+        border: 2px solid black;
+    }
+    
+    section:nth-child(3), section:nth-child(4) {
+        height: 125px;
+        border: 2px solid black;
     }
     
     section:nth-child(5), section:nth-child(6), section:nth-child(7), section:nth-child(8) {
         width: 240px;
         height: 250px;
         float: left;
+        border: 2px solid black;
     }
     
     section:nth-child(9) {
-        width: 480px;
+        width: 767px;
         height: 80px;
+        border: 2px solid black;
     }
 } 
 
 
-/*this closes the 768 size min width for media
+/*this closes the 767 size max width for media*/
+
+@media (min-width: 768px) 
+and (max-width: 960px) {
+
+body { 
+    background-color: violet;
+    width: 960px;
+    margin: 0 auto;
+    }
+
+section:nth-child(1) {
+    height: 100px;
+    border: 2px solid black;
+}
+
+section:nth-child(2) {
+    width: 200px;
+    height: 600px;
+    border: 2px solid black;
+    float: left;
+}
+
+section:nth-child(3), section:nth-child(4) {
+    width: 380px;
+    height: 200px;
+    float: left;
+    border: 2px solid black;
+}
+
+section:nth-child(5), section:nth-child(6), section:nth-child(7), section:nth-child(8) {
+    width: 190px;
+    height: 250px;
+    float: left;
+    border: 2px solid black;
+}
+
+section:nth-child(9) {
+    width: 760px;
+    height: 150px;
+    border: 2px solid black;
+}
+}
+
+/*this closes the 768 size min width for media*/
+
+@media (min-width: 961px) {
+
+body { 
+    background-color: yellowgreen;
+    width: 961px;
+    margin: 0 auto;
+}
+/* 
+section:nth-child(1) {
+    height: 100px;
+    border: 2px solid black;
+}
+
+section:nth-child(2) {
+    width: 380px;
+    height: 600px;
+    border: 2px solid black;
+}
+
+section:nth-child(3), section:nth-child(4) {
+    width: 380px;
+    height: 200px;
+    float: left;
+    border: 2px solid black;
+}
+
+section:nth-child(5), section:nth-child(6), section:nth-child(7), section:nth-child(8) {
+    width: 190px;
+    height: 250px;
+    float: left;
+    border: 2px solid black;
+}
+
+section:nth-child(9) {
+    width: 760px;
+    height: 150px;
+    border: 2px solid black;
+}
+} */
+
+/*this closes the 961 size min width for media*/
