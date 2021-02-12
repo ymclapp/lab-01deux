@@ -1,0 +1,19 @@
+{
+  "name": "lab-01deux",
+  "version": "1.0.0",
+  "description": "lab-01 of the second round of 301",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymclapp/lab-01deux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymclapp/lab-01deux/issues"
+  },
+  "homepage": "https://github.com/ymclapp/lab-01deux#readme"
+}
